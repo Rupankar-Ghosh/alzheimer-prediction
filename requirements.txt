@@ -1,0 +1,88 @@
+# Machine Learning-Based Prediction of Alzheimer's Disease
+
+A machine learning project that predicts Alzheimer's disease from patient data.
+Built with Python, Pandas, NumPy, Scikit-learn and Streamlit.
+
+## Project Structure
+
+```
+alzheimer_project/
+├── data/            # dataset files
+├── notebooks/       # Jupyter notebooks (exploration, model training)
+├── models/          # saved trained models
+├── app.py           # Streamlit web app
+└── requirements.txt # required Python libraries
+```
+
+## Requirements
+
+- Windows, macOS or Linux
+- Python 3.9 or newer (download from python.org; on Windows, tick "Add Python to PATH" during installation)
+- Git (download from git-scm.com)
+
+## Setup Steps (Windows PowerShell)
+
+**1. Download the project**
+
+```powershell
+git clone https://github.com/Rupankar-Ghosh/alzheimer-prediction.git
+cd alzheimer-prediction
+```
+
+(Or click the green **Code** button on GitHub, then **Download ZIP**, extract it, and open PowerShell in that folder.)
+
+**2. Create a virtual environment**
+
+```powershell
+python -m venv venv
+```
+
+**3. Activate the virtual environment**
+
+```powershell
+venv\Scripts\Activate.ps1
+```
+
+If PowerShell shows a "running scripts is disabled" error, run this once and try again:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+When it works, you will see `(venv)` at the start of the line.
+
+**4. Install the required libraries**
+
+```powershell
+pip install -r requirements.txt
+```
+
+## How to Run
+
+**Run the Streamlit web app**
+
+```powershell
+streamlit run app.py
+```
+
+The app opens in your browser at http://localhost:8501. To stop it, press `Ctrl + C` in PowerShell.
+
+**Run the Jupyter notebooks**
+
+```powershell
+jupyter notebook
+```
+
+Open the `notebooks` folder and run the cells in order.
+
+## Dataset
+
+Describe your dataset here: its name, where it came from, and a download link if it is not included in the `data` folder.
+
+## Technologies Used
+
+Python, Pandas, NumPy, Scikit-learn, Streamlit, Jupyter Notebook
+
+## Author
+
+Rupankar Ghosh
